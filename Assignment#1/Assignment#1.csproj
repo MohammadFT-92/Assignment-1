@@ -44,11 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Before_transfer_to_Class.cs" />
+    <Compile Include="CalcCommand.cs" />
     <Compile Include="CommandCenter.cs" />
+    <Compile Include="GameCommand.cs" />
     <Compile Include="GuessGame.cs" />
     <Compile Include="Functions.cs" />
+    <Compile Include="HelpCommand.cs" />
+    <Compile Include="ICommand.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetNameCommand.cs" />
+    <Compile Include="StatusCommand.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -8,8 +8,8 @@ namespace Assignment_1
 {
     public class CommandCenter
     {
-        private string name;
-        private string work;
+        public string name;
+        public string work;
 
         public void Run()
         {
