@@ -16,7 +16,15 @@ namespace Assignment_1
 
         public CommandCenter1()
         {
-            name = "Guest";
+            Console.WriteLine("Enter Your name");
+            name = Functions.GetStringCommand();
+            Console.WriteLine("------------------------------------");
+            Console.WriteLine("Enter your work");
+            work = Functions.GetStringCommand();
+            Console.WriteLine("------------------------------------");
+
+            
+
             IsOperational = true;
             commands = new Dictionary<string, ICommand>()
             {
@@ -40,7 +48,7 @@ namespace Assignment_1
             Console.WriteLine("You have Five Options, Choose one");
             Console.WriteLine(" (help,status,set name,game,calculator, exit) ");
 
-            while (!IsOperational)
+            while (IsOperational)
             {
                 Console.WriteLine("Type your Command :  ");
                 string input = Console.ReadLine()?.Trim().ToLower();

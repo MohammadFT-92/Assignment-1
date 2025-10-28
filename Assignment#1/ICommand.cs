@@ -9,7 +9,6 @@ namespace Assignment_1
     public interface ICommand
     {
         string Name { get; }
-        void Execute(CommandCenter center, string name);
-        void Execute(CommandCenter1 commandCenter1);
+        void Execute(CommandCenter1 commandCenter);
     }
 }

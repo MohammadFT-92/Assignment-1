@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Assignment_1
 {
-    public class GameCommand :ICommand
+    public class GameCommand : ICommand
     {
         public string Name => "game";
 
-        public void Execute(CommandCenter center, string name)
+        public void Execute(CommandCenter1 center)
         {
             Console.WriteLine("------------------------------------------");
             GuessGame.GuesGame();
@@ -18,9 +18,7 @@ namespace Assignment_1
             Console.WriteLine(" (help,status,set name,game,calculator, exit) ");
         }
 
-        public void Execute(CommandCenter1 commandCenter1)
-        {
-            throw new NotImplementedException();
-        }
+       
+
     }
 }

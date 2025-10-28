@@ -10,9 +10,7 @@ namespace Assignment_1
     {
         public string Name => "help";
 
-        string ICommand.Name => throw new NotImplementedException();
-
-        public void Execute(CommandCenter1 center, string name)
+        public void Execute(CommandCenter1 center)
         {
             Console.WriteLine("------------------------------------------");
             Console.WriteLine("help : Show availabe commands");
@@ -23,14 +21,5 @@ namespace Assignment_1
             Console.WriteLine("exit : Exit the program");
         }
 
-        void ICommand.Execute(CommandCenter center, string name)
-        {
-            throw new NotImplementedException();
-        }
-
-        void ICommand.Execute(CommandCenter1 commandCenter1)
-        {
-            throw new NotImplementedException();
-        }
     }
 }
