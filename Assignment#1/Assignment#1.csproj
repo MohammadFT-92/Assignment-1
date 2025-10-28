@@ -46,6 +46,7 @@
     <Compile Include="Before_transfer_to_Class.cs" />
     <Compile Include="CalcCommand.cs" />
     <Compile Include="CommandCenter.cs" />
+    <Compile Include="CommandCenter1.cs" />
     <Compile Include="GameCommand.cs" />
     <Compile Include="GuessGame.cs" />
     <Compile Include="Functions.cs" />

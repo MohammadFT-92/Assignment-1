@@ -10,5 +10,6 @@ namespace Assignment_1
     {
         string Name { get; }
         void Execute(CommandCenter center, string name);
+        void Execute(CommandCenter1 commandCenter1);
     }
 }

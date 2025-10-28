@@ -19,5 +19,10 @@ namespace Assignment_1
             Console.WriteLine($"Updated name");
             Console.WriteLine(name);
         }
+
+        public void Execute(CommandCenter1 commandCenter1)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

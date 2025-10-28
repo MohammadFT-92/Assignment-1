@@ -15,5 +15,15 @@ namespace Assignment_1
             Console.WriteLine("------------------------------------------");
             Functions.SimpleCalc();
         }
+
+        public void Execute(CommandCenter center, string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Execute(CommandCenter1 commandCenter1)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

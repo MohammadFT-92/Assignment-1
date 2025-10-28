@@ -10,8 +10,8 @@ namespace Assignment_1
     {
         static void Main(string[] args)
         {
-            CommandCenter app = new CommandCenter();
-            app.Run();
+            CommandCenter1 app = new CommandCenter1();
+            app.Run1();
 
         }
     }

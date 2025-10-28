@@ -11,7 +11,7 @@ namespace Assignment_1
     {
         public string Name => "status";
 
-        public void Execute(CommandCenter center, string name, string work)
+        public void Execute(CommandCenter1 center, string name, string work)
         {
             Console.WriteLine("------------------------------------------");
             Console.WriteLine($"Current Status: {work}");
@@ -20,5 +20,14 @@ namespace Assignment_1
             Console.WriteLine("Type help to return to the menu");
         }
 
+        public void Execute(CommandCenter center, string name)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Execute(CommandCenter1 commandCenter1)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

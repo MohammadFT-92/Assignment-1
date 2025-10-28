@@ -17,5 +17,10 @@ namespace Assignment_1
             Console.WriteLine("You have return to the First menu");
             Console.WriteLine(" (help,status,set name,game,calculator, exit) ");
         }
+
+        public void Execute(CommandCenter1 commandCenter1)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
